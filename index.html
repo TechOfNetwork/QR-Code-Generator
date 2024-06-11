@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>QR Code Generator - Buat QR Code dengan Cepat dan Mudah</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="assets/images/profil.png">
+		<link rel="stylesheet" href="assets/main.css" />
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+	<!-- Header -->
+	<header id="header">		
+	<meta charset="UTF-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <link rel="stylesheet" href="style.css" />
+		<meta name="title" content="QR Code Generator - Buat QR Code dengan Cepat dan Mudah" />
+		<meta name="google-site-verification" content="WHLWQb7_hoW3fRhZ2XmOLPpfN2EubRtyQmTEq6JmpdA" />
+		<meta
+			name="description"
+			content="Kembangkan QR Code sesuai keinginan Anda dengan QR Code Generator kami. Alat praktis untuk membuat QR Code teks, tautan, dan informasi lainnya. Gratis dan mudah digunakan." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://qrcreatemagic.vercel.app/" />
+		<meta property="og:title" content="QR Code Generator - Buat QR Code dengan Cepat dan Mudah" />
+		<meta
+			property="og:description"
+			content="Kembangkan QR Code sesuai keinginan Anda dengan QR Code Generator kami. Alat praktis untuk membuat QR Code teks, tautan, dan informasi lainnya. Gratis dan mudah digunakan." />
+		<meta property="og:image" content="https://qrcreatemagic.vercel.app/qrcode.png" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://qrcreatemagic.vercel.app/" />
+		<meta
+			property="twitter:title"
+			content="QR Code Generator - Buat QR Code dengan Cepat dan Mudah" />
+		<meta
+			property="twitter:description"
+			content="Kembangkan QR Code sesuai keinginan Anda dengan QR Code Generator kami. Alat praktis untuk membuat QR Code teks, tautan, dan informasi lainnya. Gratis dan mudah digunakan." />
+		<meta property="twitter:image" content="https://qrcreatemagic.vercel.app/qrcode.png" />
+		<meta
+			name="keywords"
+			content="QR Code, Generator QR Code, Buat QR Code, QR Code Online, Membuat QR Code, QR Code Gratis, Alat QR Code, Pencipta QR Code, Kode QR, Pembuat Kode QR, Pemasaran dengan QR Code, Teknologi Kode QR" />
+		<meta name="robots" content="index, follow" />
+	</head>
+	<body>
+		<div class="qr-container">
+			<div class="qr-heading">QR Code Generator</div>
+			<p>Paste a url or enter text to create QR code</p>
+			<section class="user-input">
+				<input
+					type="text"
+					name="input_text"
+					id="input_text"
+					class="qr-input"
+					placeholder="Enter text or URL"
+					autocomplete="off" />
+				<button class="qr-button" type="submit">GENERATE</button>
+			</section>
+			<div class="qr-code" style="display: none"></div>
+			<a id="downloadLink" class="qr-download" style="display: none" download="qrcode.png"
+				>Download QR Code</a
+            >
+			</div>
+            <footer class="footer">
+				<div class="footer-text">
+					<p class="paragraf">Made by  &copy; Chenkwand.</p>
+				</div>
+				
+		
+		</div>
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+		    <script src="https://unpkg.com/tippy.js@6"></script>
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+		    <script src="main.js"></script>
+			<script>
+				window.onload = function() { document.body.classList.remove('is-preload'); }
+				window.ontouchmove = function() { return false; }
+				window.onorientationchange = function() { document.body.scrollTop = 0; }
+			</script>
+	</body>
+</html>
